@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Gothic', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.name-1 {
+    height: 100vh;
+    background-color: #2D2D34;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.profil {
+    font-size: 270px;
+    color: white;
+    background-color: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+header {
+    background-color: none;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+li a {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    z-index: 99;
+}
+
+li a:hover {
+    color: #B97375;
+}
+
+/* Perkenalan */
+
+.profil-1 {
+    font-size: 48px;
+    color: #2D2D34;
+    font-weight: 400;
+}
+img {
+    width: 300px;
+    
+}
+.img1, .img2 {
+    filter: grayscale(100%);
+    border-radius: 20px;
+}
+p {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #2D2D34;
+    margin-top: 30px;
+}
+.about {
+    width: 500px;
+}
+
+.container .deskripsi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    background-color: #F1E4E8;
+    display: flex;
+}
+
+.deskripsi{
+    width: 1100px;
+    margin: auto;
+    background-color: none;
+}
+.gambar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    gap: 30px;
+}
+
+/*----Skill Page----*/
+
+.imgDesign, .imgEditor {
+    width: 500px;
+    border-radius: 25px;
+    filter: grayscale(100%);
+}
+.profil_1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.textDesign, .textEditor {
+    width: 300px;
+}
+
+
+.container1 {
+    background-color: #F1E4E8;
+    display: flex;
+    flex-direction: column;
+    height: 1700px;
+}
+.skillTitle {
+    background-color: none;
+    width: 1100px;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+.skillset {
+    display: flex;
+    background-color: none;
+    justify-content: center;
+    width: 1100px;
+    margin: auto;
+}
+.editor {
+    margin-left: 100px;
+}
+
+
+/* Data Diri */
+.imgdataDiri {
+    width: 70px;
+    border-radius: 50%;
+}
+.infonama {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.dataDiri_title {
+    background-color: none;
+    width: 1100px;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.dataDiri {
+    background-color: #F1E4E8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.dataDiri_1 {
+    background-color: none;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infodataDiri {
+    background-color: none;
+    width: 400px;
+}
+.fa-solid {
+    color: #2D2D34;
+    font-size: 70px;
+}
+.mediadataDiri {
+    display: flex;
+    gap: 30px;
+}
+
+/*--- Get Connected ---*/
+.getConnect {
+    background-color: #F1E4E8;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getConnect_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+    width: 800px;
+    gap: 10px;
+}
+.connectFont {
+    font-size: 40px;
+    font-weight: 400;
+}
+.textconnect {
+    background-color: none;
+    width: 400px;
+    text-align: center;
+}
+.link {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    color: #B97375;
+
+}
+
+/*--- Button ---*/
+.btnconnect {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #2D2D34;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #F1E4E8;
+    border: 1px solid #F1E4E8;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -4px -4px 12px #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.btnconnect:active {
+    color: white;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+    inset -4px -4px 12px #fff;
+}
+.btnconnect:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+.btnconnect:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #2D2D34;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+.btnconnect:hover {
+    color: white;
+    border: 1px solid #2D2D34;
+}
+.btnconnect:hover:before {
+    top: -35%;
+    background-color: #2D2D34;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+.btnconnect:hover:after {
+    top: -45%;
+    background-color: #2D2D34;
+    transform: translateX(-50%) scaleY(1.3) scale(0.8);
+}
+
+
+
+
+@media (max-width: 1199px) {
+    .profil {
+        font-size: 190px;
+        text-align: center;
+    }
+    .name-1 {
+        height: 100vh;
+    }
+    img {
+        width: 200px;
+    }
+    .deskripsi {
+        margin: auto;
+        width: 800px;
+        background-color: none;
+    }
+    .skillTitle {
+        width: 800px;
+        margin-top: 30px;
+    }
+    .skillset {
+        width: 800px;
+    }
+    .dataDiri_title {
+        background-color: none;
+        width: 800px;
+    }
+    .dataDiri_1 {
+        width: 800px;
+    }
+    .imgDesign, .imgEditor {
+        width: 300px;
+    }
+}
+
+@media (max-width: 900px) { 
+    .profil {
+        font-size: 100px;
+        text-align: center;
+    }
+    .profil-1, .profil_1, p {
+        margin: 30px;
+    }
+    .deskripsi {
+        background-color: none;
+        height: 800px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 480px;
+    }
+    .about {
+        width: 480px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .skillTitle {
+        background-color: none;
+        width: 420px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .container1 {
+        background-color: none;
+        height: 2560px;
+    }
+    .skillset {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: none;
+        gap: 50px;
+    }
+    .editor, .design {
+        margin-left: 0px;
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgEditor, .imgDesign {
+        width: 370px;
+    }
+    .dataDiri {
+        height: 600px;
+        background-color: none;
+    }
+    .dataDiri_title {
+        width: 420px;
+    }
+    .dataDiri_1 {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        width: 470px;
+    }
+    .mediadataDiri {
+        display: flex;
+        flex-direction: column;
+    }
+    .textDesign, .textEditor {
+        width: 400px;
+    }
+    .infotext {
+        background-color: none;
+    }
+    .textconnect {
+        width: 400px;
+    }
+    .infodataDiri {
+        background-color: none;
+        width: 470px;
+    }
+    .infonama {
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
+
+/*--- Scroll Bar Custom ---*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 50px;
+}
